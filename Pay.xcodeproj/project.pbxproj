@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5385F7ED1C2146DE000E810A /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5385F7EA1C2146DE000E810A /* SVProgressHUD.bundle */; };
+		5385F7EE1C2146DE000E810A /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5385F7EC1C2146DE000E810A /* SVProgressHUD.m */; };
 		53B5C04D1C210B9D009E3376 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B5C04C1C210B9D009E3376 /* main.m */; };
 		53B5C0501C210B9D009E3376 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B5C04F1C210B9D009E3376 /* AppDelegate.m */; };
 		53B5C0531C210B9D009E3376 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B5C0521C210B9D009E3376 /* ViewController.m */; };
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5385F7EA1C2146DE000E810A /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		5385F7EB1C2146DE000E810A /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		5385F7EC1C2146DE000E810A /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		53B5C0481C210B9D009E3376 /* Pay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53B5C04C1C210B9D009E3376 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		53B5C04E1C210B9D009E3376 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +65,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5385F7E91C2146DE000E810A /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				5385F7EA1C2146DE000E810A /* SVProgressHUD.bundle */,
+				5385F7EB1C2146DE000E810A /* SVProgressHUD.h */,
+				5385F7EC1C2146DE000E810A /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
 		53B5C03F1C210B9D009E3376 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +100,7 @@
 				53B5C04F1C210B9D009E3376 /* AppDelegate.m */,
 				53B5C0511C210B9D009E3376 /* ViewController.h */,
 				53B5C0521C210B9D009E3376 /* ViewController.m */,
+				5385F7E91C2146DE000E810A /* SVProgressHUD */,
 				53B5C0541C210B9D009E3376 /* Main.storyboard */,
 				53B5C0571C210B9D009E3376 /* Assets.xcassets */,
 				53B5C0591C210B9D009E3376 /* LaunchScreen.storyboard */,
@@ -194,6 +210,7 @@
 				53B5C05B1C210B9D009E3376 /* LaunchScreen.storyboard in Resources */,
 				53B5C0581C210B9D009E3376 /* Assets.xcassets in Resources */,
 				53B5C0561C210B9D009E3376 /* Main.storyboard in Resources */,
+				5385F7ED1C2146DE000E810A /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53B5C0531C210B9D009E3376 /* ViewController.m in Sources */,
+				5385F7EE1C2146DE000E810A /* SVProgressHUD.m in Sources */,
 				53B5C0501C210B9D009E3376 /* AppDelegate.m in Sources */,
 				53B5C04D1C210B9D009E3376 /* main.m in Sources */,
 			);
@@ -272,7 +290,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: youwen zhang (TFB5TGQ3YC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: youwen zhang (TFB5TGQ3YC)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -294,6 +313,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "e09373f5-5a42-43c2-9698-7e7cef27f58c";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -316,7 +336,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: youwen zhang (TFB5TGQ3YC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: youwen zhang (TFB5TGQ3YC)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -331,6 +352,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "e09373f5-5a42-43c2-9698-7e7cef27f58c";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -341,10 +363,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Pay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zsc.Pay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestAppStore.shoping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -352,10 +377,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Pay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zsc.Pay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestAppStore.shoping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -363,10 +391,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: youwen zhang (TFB5TGQ3YC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: youwen zhang (TFB5TGQ3YC)";
 				INFOPLIST_FILE = PayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zsc.PayTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e09373f5-5a42-43c2-9698-7e7cef27f58c";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pay.app/Pay";
 			};
 			name = Debug;
@@ -375,10 +406,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: youwen zhang (TFB5TGQ3YC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: youwen zhang (TFB5TGQ3YC)";
 				INFOPLIST_FILE = PayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zsc.PayTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e09373f5-5a42-43c2-9698-7e7cef27f58c";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pay.app/Pay";
 			};
 			name = Release;
@@ -402,6 +436,7 @@
 				53B5C06C1C210B9D009E3376 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53B5C06D1C210B9D009E3376 /* Build configuration list for PBXNativeTarget "PayTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +445,7 @@
 				53B5C06F1C210B9D009E3376 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
